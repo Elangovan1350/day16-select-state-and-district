@@ -42,5 +42,5 @@ dis.addEventListener("change", () => {
 button.addEventListener("click", () => {
   document.getElementById(
     "para"
-  ).textContent = `you choosen the state (${currentState}) and district as (${currentDistrict}`;
+  ).textContent = `you choosen the state (${currentState}) and district as (${currentDistrict})`;
 });
