@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-size: large;
+        text-transform: capitalize;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        gap: 20px;
+      }
+      form {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        flex-direction: column;
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <label for=""
+        >State:
+        <select name="" id="state">
+          <option value="">choose one</option>
+        </select>
+      </label>
+      <label for=""
+        >District:
+        <select name="" id="district">
+          <option id="first" value="">choose one</option>
+        </select>
+      </label>
+      <input type="button" value="conform" id="button" />
+      <input type="reset" value="reset" />
+    </form>
+    <p id="para"></p>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
